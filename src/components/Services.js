@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faDocker, faAws, faPython, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faDocker, faAws, faPython, faNodeJs } from "@fortawesome/free-brands-svg-icons"
 
 const Services = () => {
     return (
