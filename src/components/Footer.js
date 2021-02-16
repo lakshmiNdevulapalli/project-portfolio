@@ -1,5 +1,7 @@
 import React from "react"
 import {FacebookShareButton, FacebookIcon , TwitterShareButton, TwitterIcon, LinkedinShareButton, LinkedinIcon} from "react-share"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
     return (
@@ -15,6 +17,11 @@ const Footer = () => {
                         </div>
                         <div className="d-flex">
                             <p>baludevulapalli@gmail.com</p>
+                        </div>
+                        <div className="d-flex">
+                            <div className="circle"><FontAwesomeIcon className="icon" icon={faGithub} size="2x"/>
+                                <a href="https://github.com/lakshmiNdevulapalli">&nbsp;&nbsp;&nbsp;My GitHub</a>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
