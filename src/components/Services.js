@@ -4,7 +4,7 @@ import { faDocker, faAws, faPython, faNodeJs } from "@fortawesome/free-brands-sv
 
 const Services = () => {
     return (
-        <div className="services">
+        <div id="service" className="services">
             <h1 className="py-5">my services include</h1>
                 <div className="container">
                     <div className="row">

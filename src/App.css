@@ -2,7 +2,6 @@
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #f9ab00 ;
   --primary-dark: 52, 58, 64;
   --primary-red: red;
   --primary-hover-blue: cadetblue;
@@ -55,12 +54,12 @@ nav ul li {
 }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-hover-blue);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-hover-blue);
 }
 
 /******************* Header *******************/
@@ -69,7 +68,7 @@ nav ul li {
   background: url(devops.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -88,7 +87,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--primary-hover-blue);
   text-transform: uppercase;
 }
 
@@ -348,11 +347,16 @@ nav ul li {
   font-size: 1.5rem;
 }
 
-.portfolio-image-box:hover .portfolio-icon{
+.portfolio-image-box:hover .portfolio-icon {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+/******************* PopupBox *******************/
 
 .portfolio-image-popupbox {
   display: block;
@@ -367,7 +371,6 @@ nav ul li {
   color: var(--primary-hover-blue);
 }
 
-/******************* PopupBox *******************/
 @media(max-width: 768px) {
   .portfolio-image-popupbox {
     width: 100%;
