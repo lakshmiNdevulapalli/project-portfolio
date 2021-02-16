@@ -29,4 +29,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 6) Contact form
 
 ## Docker image 
-baludevulapalli/portfolio:latest(docker pull baludevulapalli/portfolio:latest)
+[baludevulapalli/portfolio:latest](https://hub.docker.com/repository/docker/baludevulapalli/portfolio)
