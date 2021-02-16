@@ -27,3 +27,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 4) Experience
 5) Portfolio
 6) Contact form
+
+## Docker image 
+baludevulapalli/portfolio:latest(docker pull baludevulapalli/portfolio:latest)
