@@ -1,5 +1,7 @@
 Firstly I would like to thank Andrey Dovganyuk of 80/20 coding for a great tutorial whcih helped me build this portfolio
 
+## Portfolio [live demo](https://www.dvln-portfolio.com/) 
+
 In the project directory, you can run:
 
 ### `npm start`
