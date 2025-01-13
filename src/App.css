@@ -65,7 +65,7 @@ nav ul li {
 /******************* Header *******************/
 .header-wrapper {
   position: relative;
-  background: url(src/assets/images/devops.jpg);
+  background: url("/images/devops.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
