@@ -49,9 +49,9 @@ nav ul li {
 }
 
 @media(max-width: 768px) {
-.navbar-brand {
-  width: 7rem;
-}
+  .navbar-brand {
+    width: 7rem;
+  }
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
@@ -65,7 +65,7 @@ nav ul li {
 /******************* Header *******************/
 .header-wrapper {
   position: relative;
-  background: url(devops.jpg);
+  background: url(src/assets/images/devops.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -74,7 +74,6 @@ nav ul li {
 .main-info {
   display: flex;
   position: absolute;
-  top: 10;
   left: 0;
   right: 0;
   bottom: 0;
